@@ -47,9 +47,9 @@ function Forecast({weather}) {
     setIsCelsius((prevState) => !prevState);
   };
 
-  const convertToCelsius = (temperature) => {
+  /* const convertToCelsius = (temperature) => {
     return Math.round((temperature - 32) * (5 / 9));
-  };
+  }; */
 
   const convertToFahrenheit = (temperature) => {
      return Math.round((temperature * 9) / 5 + 32);
